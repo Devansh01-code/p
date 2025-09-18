@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <title>portfolio</title>
+  <meta charset="UTF-8">
+  <title>Portfolio - Devansh</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Styles -->
   <link rel="stylesheet" href="styles.css">
+
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<!-- it is an animation library/framework 
-AOS : animation on scroll
--->
+
+  <!-- AOS Animation -->
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
-
-
 </head>
-
 <body>
   <header>
     <nav>
@@ -31,53 +31,49 @@ AOS : animation on scroll
         </ul>
       </div>
       <div class="hamburgur">
-        <img id="ham" src="images/hamburger.svg" alt="">
+        <img id="ham" src="images/hamburger.svg" alt="Menu">
       </div>
     </nav>
   </header>
+
   <main>
+    <!-- Hero Section -->
     <section id="hero" class="section-p">
       <div class="hero-content" data-aos="fade-up">
         <h1>Hi, I'm <span>Devansh</span></h1>
         <h2>Building Web Solutions That Work Seamlessly Everywhere</h2>
-        <p>I specialize in designing and developing clean, responsive websites that prioritize both functionality and
-          user experience. I believe in writing efficient code, creating intuitive interfaces, and delivering projects
-          that are visually appealing and easy to navigate. My focus is on building digital solutions that make a
-          lasting impact.</p>
+        <p>
+          I specialize in designing and developing clean, responsive websites that prioritize both functionality
+          and user experience. I believe in writing efficient code, creating intuitive interfaces, and delivering
+          projects that are visually appealing and easy to navigate. My focus is on building digital solutions
+          that make a lasting impact.
+        </p>
         <div class="hero-buttons">
           <button class="btn" data-aos="fade-right" data-aos-delay="150"><a href="#projects">View My Work</a></button>
-          <button class="btn" data-aos="fade-left" data-aos-delay="150"><a href="resume.pdf">view Resume</a></button>
+          <button class="btn" data-aos="fade-left" data-aos-delay="150"><a href="resume.pdf">View Resume</a></button>
         </div>
       </div>
 
       <div class="myprofiles">
-        <a href="https://github.com/Devansh01-code"  data-aos="fade-left" data-aos-delay="200"><i class="fab fa-github" aria-hidden="true"></i>GitHUb</a>
-
-        <a href="https://linkedin.com/in/devansh-d-60924227b"  data-aos="fade-left" data-aos-delay="200"><i class="fab fa-linkedin"></i>Linkedin</a>
-
+        <a href="https://github.com/Devansh01-code" data-aos="fade-left" data-aos-delay="200"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://linkedin.com/in/devansh-d-60924227b" data-aos="fade-left" data-aos-delay="200"><i class="fab fa-linkedin"></i> LinkedIn</a>
       </div>
     </section>
 
+    <!-- About Section -->
     <section id="About" class="section-p">
       <div class="photo" data-aos="fade-right">
-        <img src="images/dev.png" alt="">
+        <img src="images/dev.png" alt="Devansh Photo">
       </div>
       <div class="aboutme border" data-aos="fade-left">
         <h1>About Me</h1>
         <p>
-          Hi, I’m Devansh —a passionate <span id="element"></span> with a growing expertise in web development and
-          programming. I enjoy building creative, user-friendly websites and applications using HTML, CSS, JavaScript,
-          and Java, and constantly learning new technologies to improve my skills. <br>
-          <br>
+          Hi, I’m Devansh — a passionate <span id="element"></span> with a growing expertise in web development
+          and programming. I enjoy building creative, user-friendly websites and applications using HTML, CSS,
+          JavaScript, and Java, and constantly learning new technologies to improve my skills. <br><br>
           Beyond coding, I’m curious about technology, design, and innovation, and I believe in combining clean code
           with thoughtful design to deliver engaging digital experiences. I’ve created projects like a fashion
-          e-commerce website and enjoy taking on challenges that push me to learn and grow.
-
-          <br>
-          When I’m not coding, you’ll often find me exploring fitness, improving my general knowledge, or working on
-          creative scripts for short videos. My goal is to secure impactful opportunities where I can apply my skills,
-          contribute to real-world projects, and keep evolving as a developer.
-          <br>
+          e-commerce website and enjoy taking on challenges that push me to learn and grow. <br><br>
           When I’m not coding, you’ll often find me exploring fitness, improving my general knowledge, or working on
           creative scripts for short videos. My goal is to secure impactful opportunities where I can apply my skills,
           contribute to real-world projects, and keep evolving as a developer.
@@ -85,177 +81,150 @@ AOS : animation on scroll
       </div>
     </section>
 
-
+    <!-- Projects Section -->
     <section id="projects" class="section-p">
       <h2 data-aos="fade-up">Projects</h2>
 
       <div class="proj-container">
         <div class="pro" data-aos="fade-right" data-aos-delay="150">
-
-          <a href="https://devansh01-code.github.io/e-commerce-site"><img src="images/e-commerce.jpg" alt=""></a>
-
+          <a href="https://devansh01-code.github.io/e-commerce-site"><img src="images/e-commerce.jpg" alt="E-commerce Project"></a>
           <div class="prodetails">
-            <h4>COSMO - cosplay store</h4>
-            <p></p>
+            <h4>COSMO - Cosplay Store</h4>
+            <p>Fashion e-commerce website built with HTML, CSS, and JavaScript.</p>
             <button><a href="https://devansh01-code.github.io/e-commerce-site">Visit now</a></button>
-
           </div>
-
-
         </div>
+
         <div class="pro" data-aos="fade-right" data-aos-delay="300">
-
-          <a href="#"><img src="images/portfolio.jpg" alt=""></a>
-
+          <a href="#"><img src="images/portfolio.jpg" alt="Portfolio Project"></a>
           <div class="prodetails">
             <h4>Personal Portfolio</h4>
-            <p>I build a portfolio website showing My HTML CSS and javascript skills </p>
+            <p>A portfolio website showcasing my HTML, CSS, and JavaScript skills.</p>
             <button><a href="index.html">Visit now</a></button>
-
           </div>
-
-
         </div>
-     
       </div>
-
     </section>
 
-    
-<section class="skills" id="skills">
-  <h2 class="section-title">My Skills</h2>
-  <div class="skills-container">
-    
-    <div class="skill-category" data-aos="fade-right">
-      <h3>💻 Technical Skills</h3>
-      <ul>
-        <li>HTML, CSS, JavaScript, React</li>
-        <li>C, Java</li>
-        <li>SQL (MySQL)</li>
-        <li>Git & GitHub</li>
-        <li>VS Code</li>
-      </ul>
-    </div>
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-container">
+        <div class="skill-category" data-aos="fade-right">
+          <h3>💻 Technical Skills</h3>
+          <ul>
+            <li>HTML, CSS, JavaScript, React</li>
+            <li>C, Java</li>
+            <li>SQL (MySQL)</li>
+            <li>Git & GitHub</li>
+            <li>VS Code</li>
+          </ul>
+        </div>
 
-    <div class="skill-category">
-      <h3>🧠 Soft Skills</h3>
-      <ul>
-        <li>Adaptability</li>
-        <li>Problem Solving</li>
-        <li>Critical Thinking</li>
-        <li>Good Communication</li>
-        <li>Team Collaboration</li>
-      </ul>
-    </div>
+        <div class="skill-category">
+          <h3>🧠 Soft Skills</h3>
+          <ul>
+            <li>Adaptability</li>
+            <li>Problem Solving</li>
+            <li>Critical Thinking</li>
+            <li>Good Communication</li>
+            <li>Team Collaboration</li>
+          </ul>
+        </div>
 
-    <div class="skill-category"data-aos="fade-left">
-      <h3>⚡ Additional Skills</h3>
-      <ul>
-        <li>Digital Marketing Basics</li>
-        <li>UI/Poster Design (Canva, Figma)</li>
-        <li>OOP Concepts</li>
-        <li>Networking Fundamentals</li>
-      </ul>
-    </div>
+        <div class="skill-category" data-aos="fade-left">
+          <h3>⚡ Additional Skills</h3>
+          <ul>
+            <li>Digital Marketing Basics</li>
+            <li>UI/Poster Design (Canva, Figma)</li>
+            <li>OOP Concepts</li>
+            <li>Networking Fundamentals</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-  </div>
-</section>
-
-
+    <!-- Certifications Section -->
     <section id="certifications" class="section-p">
       <h2 class="section-title">Certifications</h2>
-
       <div class="cert-timeline">
 
         <div class="cert-item" data-aos="fade-down">
           <div class="cert-dot"></div>
           <div class="cert-content">
             <div class="cert-image">
-              <img src="images/web developer cert.jpg" alt="">
-
+              <img src="images/web developer cert.jpg" alt="Web Developer Certification">
             </div>
             <div class="cert-details">
               <h3>Front-End Web Developer Certification</h3>
               <p class="cert-issuer">Issued by: Infosys Springboard</p>
               <span class="cert-date">Aug 2025</span>
               <a href="#" target="_blank" class="cert-link">View Certificate →</a>
-
             </div>
           </div>
         </div>
+
         <div class="cert-item">
           <div class="cert-dot"></div>
           <div class="cert-content">
             <div class="cert-image">
-              <img src="images/javascript cert.jpg" alt="">
-
+              <img src="images/javascript cert.jpg" alt="JavaScript Certification">
             </div>
             <div class="cert-details">
               <h3>JavaScript Certification</h3>
               <p class="cert-issuer">Issued by: Infosys Springboard</p>
               <span class="cert-date">Aug 2025</span>
               <a href="#" target="_blank" class="cert-link">View Certificate →</a>
-
             </div>
           </div>
         </div>
+
         <div class="cert-item">
           <div class="cert-dot"></div>
           <div class="cert-content">
             <div class="cert-image">
-              <img src="images/javascript cert.jpg" alt="">
-
+              <img src="images/javascript cert.jpg" alt="Java Certification">
             </div>
             <div class="cert-details" data-aos="zoom-in">
               <h3>Programming in Java</h3>
               <p class="cert-issuer">Issued by: Infosys Springboard</p>
               <span class="cert-date">Aug 2025</span>
               <a href="#" target="_blank" class="cert-link">View Certificate →</a>
-
             </div>
           </div>
         </div>
 
-
-      </div>
-
       </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact" class="contact-section section-p">
       <div class="contact-wrapper">
         <h2>Let’s Work Together</h2>
-        <p>Got a project, collaboration idea, or just want to say hello?
-          Drop me a message and I’ll get back to you.</p>
-    
-        <!-- Contact form: demo-only to avoid phishing flags -->
-        <form class="contact-form" onsubmit="event.preventDefault(); alert('This form is for demo only. Please use my email to contact me directly.');">
+        <p>
+          Got a project, collaboration idea, or just want to say hello?  
+          Reach me directly at <a href="mailto:devansh91511@gmail.com">devansh91511@gmail.com</a>.
+        </p>
+
+        <!-- Safe demo form -->
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Form is demo only — please email me instead.');">
           <input type="text" name="name" placeholder="Your Name" required>
-          <input type="email" name="email" placeholder="Your Email" required>  
+          <input type="email" name="email" placeholder="Your Email" required>
           <textarea name="message" placeholder="Your Message" required></textarea>
           <button type="submit">Send Message</button>
         </form>
-    
-        <div class="contact-links">
-          Love to connect with you
-        </div>
-    
-        <div class="contact-bar">
-          <p>💌 Let's Connect:</p>
-          <a href="mailto:devansh91511@gmail.com">Send me an Email</a>
-        </div>
       </div>
     </section>
-    
-    
+
+    <!-- Footer -->
     <footer class="footer">
       <div class="footer-container">
-    
+
         <div class="footer-about">
           <h3>Devansh</h3>
           <p>Passionate BCA student building creative and functional web experiences.</p>
         </div>
-    
+
         <div class="footer-links">
           <h4>Quick Links</h4>
           <ul>
@@ -265,11 +234,10 @@ AOS : animation on scroll
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
-    
+
         <div class="footer-contact">
           <h4>Get in Touch</h4>
           <p>Email: <a href="mailto:devansh91511@gmail.com">devansh91511@gmail.com</a></p>
-          <!-- Optional: keep phone if real, else remove -->
           <p>Phone: +91-9876543210</p>
           <div class="social-icons">
             <a href="https://linkedin.com/in/devansh-d-60924227b" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -278,37 +246,33 @@ AOS : animation on scroll
             <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
           </div>
         </div>
-    
       </div>
-    
+
       <div class="footer-bottom">
         <p>© 2025 Devansh. All Rights Reserved.</p>
       </div>
     </footer>
-    
-
-
-
   </main>
+
+  <!-- Scripts -->
   <script src="script.js"></script>
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <script>
-  AOS.init({
-    duration: 1000,   // animation duration in ms
-    once: false,
-    mirror: true,       // animate only once
-    offset: 80      // distance from viewport to trigger
-  });
+    AOS.init({
+      duration: 1000,
+      once: false,
+      mirror: true,
+      offset: 80
+    });
 
     var typed = new Typed('#element', {
-      strings: ['Developer', 'designer', 'Problem solver'],
+      strings: ['Developer', 'Designer', 'Problem Solver'],
       typeSpeed: 50,
-      backSpeed: 30,       // speed when deleting
-      backDelay: 1000,     // delay before deleting
+      backSpeed: 30,
+      backDelay: 1000,
       loop: true,
     });
   </script>
 </body>
-
 </html>
